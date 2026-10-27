@@ -1,0 +1,92 @@
+[
+  {
+    "page": "index.html",
+    "old": "fresh-05.jpg",
+    "new": "new-story-images/image-02.jpg"
+  },
+  {
+    "page": "index.html",
+    "old": "fresh-08.jpg",
+    "new": "new-story-images/image-04.jpg"
+  },
+  {
+    "page": "index.html",
+    "old": "fresh-09.jpg",
+    "new": "new-story-images/image-10.jpg"
+  },
+  {
+    "page": "index.html",
+    "old": "fresh-11.jpg",
+    "new": "new-story-images/image-07.jpg"
+  },
+  {
+    "page": "about.html",
+    "old": "supplied-images/picture-01.jpg",
+    "new": "new-story-images/image-05.jpg"
+  },
+  {
+    "page": "juice-or-smoothie.html",
+    "old": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%20role%3D%22img%22%20aria-label%3D%22Fruit%20drink%20illustration%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g28%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%239A729D%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fff3cc%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22800%22%20height%3D%22600%22%20rx%3D%2232%22%20fill%3D%22%23f3ecd9%22%2F%3E%3Ccircle%20cx%3D%22190%22%20cy%3D%22162%22%20r%3D%22125%22%20fill%3D%22%239A729D%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22660%22%20cy%3D%22480%22%20r%3D%22155%22%20fill%3D%22%23789457%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M0%20490Q400%20440%20800%20490V600H0%22%20fill%3D%22%23dfd2b5%22%2F%3E%3Cellipse%20cx%3D%22420%22%20cy%3D%22495%22%20rx%3D%22195%22%20ry%3D%2226%22%20fill%3D%22%23887c62%22%20opacity%3D%22.13%22%2F%3E%3Cpath%20d%3D%22M285%20185H510L482%20455Q398%20500%20315%20455Z%22%20fill%3D%22url%28%23g28%29%22%20stroke%3D%22%23fff%22%20stroke-width%3D%229%22%2F%3E%3Cellipse%20cx%3D%22398%22%20cy%3D%22185%22%20rx%3D%22112%22%20ry%3D%2221%22%20fill%3D%22%23fff4d4%22%2F%3E%3Cpath%20d%3D%22M432%20193L475%2088H542%22%20fill%3D%22none%22%20stroke%3D%22%23587849%22%20stroke-width%3D%2213%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M350%20250Q330%20340%20350%20415%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20opacity%3D%22.5%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22420%22%20r%3D%2275%22%20fill%3D%22%239A729D%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22420%22%20r%3D%2261%22%20fill%3D%22%23fff1bd%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22420%22%20r%3D%2249%22%20fill%3D%22%239A729D%22%20opacity%3D%22.7%22%2F%3E%3Cpath%20d%3D%22M540%20345Q520%20284%20590%20302Q594%20339%20540%20345M290%20451Q223%20392%20204%20457Q248%20493%20290%20451%22%20fill%3D%22%2363834e%22%2F%3E%3Ccircle%20cx%3D%22252%22%20cy%3D%22469%22%20r%3D%2230%22%20fill%3D%22%239A729D%22%2F%3E%3Ccircle%20cx%3D%22657%22%20cy%3D%22458%22%20r%3D%2220%22%20fill%3D%22%239A729D%22%20opacity%3D%22.65%22%2F%3E%3Cpath%20d%3D%22M548%20373V467M501%20420H595M515%20387L581%20453M515%20453L581%20387%22%20stroke%3D%22%23fff1bd%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22110%22%20cy%3D%22100%22%20r%3D%228%22%20fill%3D%22%239A729D%22%20opacity%3D%22.35%22%2F%3E%3C%2Fsvg%3E",
+    "new": "new-story-images/image-01.jpg"
+  },
+  {
+    "page": "colourful-ingredients.html",
+    "old": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%20role%3D%22img%22%20aria-label%3D%22Fruit%20drink%20illustration%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g16%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23BC5267%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fff3cc%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22800%22%20height%3D%22600%22%20rx%3D%2232%22%20fill%3D%22%23f3ecd9%22%2F%3E%3Ccircle%20cx%3D%22190%22%20cy%3D%22162%22%20r%3D%22125%22%20fill%3D%22%23BC5267%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22660%22%20cy%3D%22480%22%20r%3D%22155%22%20fill%3D%22%23789457%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M0%20490Q400%20440%20800%20490V600H0%22%20fill%3D%22%23dfd2b5%22%2F%3E%3Cellipse%20cx%3D%22420%22%20cy%3D%22495%22%20rx%3D%22195%22%20ry%3D%2226%22%20fill%3D%22%23887c62%22%20opacity%3D%22.13%22%2F%3E%3Cpath%20d%3D%22M285%20185H510L482%20455Q398%20500%20315%20455Z%22%20fill%3D%22url%28%23g16%29%22%20stroke%3D%22%23fff%22%20stroke-width%3D%229%22%2F%3E%3Cellipse%20cx%3D%22398%22%20cy%3D%22185%22%20rx%3D%22112%22%20ry%3D%2221%22%20fill%3D%22%23fff4d4%22%2F%3E%3Cpath%20d%3D%22M432%20193L475%2088H542%22%20fill%3D%22none%22%20stroke%3D%22%23587849%22%20stroke-width%3D%2213%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M350%20250Q330%20340%20350%20415%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20opacity%3D%22.5%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22420%22%20r%3D%2275%22%20fill%3D%22%23BC5267%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22420%22%20r%3D%2261%22%20fill%3D%22%23fff1bd%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22420%22%20r%3D%2249%22%20fill%3D%22%23BC5267%22%20opacity%3D%22.7%22%2F%3E%3Cpath%20d%3D%22M540%20345Q520%20284%20590%20302Q594%20339%20540%20345M290%20451Q223%20392%20204%20457Q248%20493%20290%20451%22%20fill%3D%22%2363834e%22%2F%3E%3Ccircle%20cx%3D%22252%22%20cy%3D%22469%22%20r%3D%2230%22%20fill%3D%22%23BC5267%22%2F%3E%3Ccircle%20cx%3D%22657%22%20cy%3D%22458%22%20r%3D%2220%22%20fill%3D%22%23BC5267%22%20opacity%3D%22.65%22%2F%3E%3Cpath%20d%3D%22M548%20373V467M501%20420H595M515%20387L581%20453M515%20453L581%20387%22%20stroke%3D%22%23fff1bd%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22160%22%20cy%3D%22100%22%20r%3D%228%22%20fill%3D%22%23BC5267%22%20opacity%3D%22.35%22%2F%3E%3C%2Fsvg%3E",
+    "new": "new-story-images/image-03.jpg"
+  },
+  {
+    "page": "your-cafe-break.html",
+    "old": "replacement-images/pexels-8211179.jpg",
+    "new": "new-story-images/image-06.jpg"
+  },
+  {
+    "page": "juice-or-smoothie.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "new-story-images/image-08.jpg"
+  },
+  {
+    "page": "juice-or-smoothie.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "new-story-images/image-09.jpg"
+  },
+  {
+    "page": "juice-or-smoothie.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-05.jpg"
+  },
+  {
+    "page": "colourful-ingredients.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-08.jpg"
+  },
+  {
+    "page": "colourful-ingredients.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-09.jpg"
+  },
+  {
+    "page": "colourful-ingredients.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-11.jpg"
+  },
+  {
+    "page": "your-cafe-break.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-04.jpg"
+  },
+  {
+    "page": "your-cafe-break.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-06.jpg"
+  },
+  {
+    "page": "your-cafe-break.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-16.jpg"
+  },
+  {
+    "page": "your-cafe-break.html",
+    "old": "data:image/svg+xml,%3Csvg%20xm",
+    "new": "fresh-17.jpg"
+  }
+]
