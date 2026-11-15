@@ -24,7 +24,7 @@ window.CAFE_PRODUCTS = [
     "slug": "citrus-sunrise",
     "name": "Citrus Sunrise",
     "category": "Juices",
-    "image": "orange.jpg",
+    "image": "images/orange.jpg",
     "alt": "Fresh orange juice being poured into a glass beside sliced oranges",
     "description":
       "A bright, refreshing squeeze of orange with a little lemon and a lively ginger finish.",
@@ -39,7 +39,7 @@ window.CAFE_PRODUCTS = [
     "slug": "green-glow",
     "name": "Green Glow",
     "category": "Smoothies",
-    "image": "green.jpg",
+    "image": "images/green.jpg",
     "alt": "Green smoothie in a tall glass with a black straw",
     "description":
       "A mellow blend of spinach, banana and apple with a squeeze of lime. Fresh, green and beautifully balanced.",
@@ -54,7 +54,7 @@ window.CAFE_PRODUCTS = [
     "slug": "berry-bliss",
     "name": "Berry Bliss",
     "category": "Smoothies",
-    "image": "berry.jpg",
+    "image": "images/berry.jpg",
     "alt": "Creamy pink strawberry smoothie in a glass on a wooden table",
     "description":
       "Strawberries and banana meet creamy oat milk in a berry-bright blend made for a little everyday joy.",
@@ -69,7 +69,7 @@ window.CAFE_PRODUCTS = [
     "slug": "mango-mood",
     "name": "Mango Mood",
     "category": "Smoothies",
-    "image": "mango.jpg",
+    "image": "images/mango.jpg",
     "alt": "Golden mango smoothie topped with freshly sliced mango",
     "description":
       "Golden mango, banana and coconut milk blended into a sunny, tropical escape.",
@@ -83,7 +83,7 @@ window.CAFE_PRODUCTS = [
     "slug": "cocoa-cloud",
     "name": "Cocoa Cloud",
     "category": "Shakes",
-    "image": "chocolate.jpg",
+    "image": "images/chocolate.jpg",
     "alt": "Chocolate milkshake with whipped cream and chocolate drizzle",
     "description":
       "A rich chocolate shake with milk, vanilla ice cream and a swirl of cocoa. A small moment of indulgence.",
@@ -104,7 +104,7 @@ window.CAFE_PRODUCTS = [
     "slug": "avocado-crunch",
     "name": "Avocado Crunch",
     "category": "Healthy Snacks",
-    "image": "toast.jpg",
+    "image": "images/toast.jpg",
     "alt": "Avocado toast on a white plate with a green napkin",
     "description":
       "Creamy avocado on crisp sourdough, finished with lemon, chilli flakes and a pinch of sea salt.",

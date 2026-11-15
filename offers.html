@@ -11,7 +11,7 @@
 <meta content="Offers | Juice Bar &amp; Smoothie Café" property="og:title"/>
 <meta content="Offers — explore juices, smoothies, shakes and healthy snacks at Juice Bar &amp; Smoothie Café. Illustrative café template." property="og:description"/>
 <meta content="https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site/offers.html" property="og:url"/>
-<meta content="https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site/fresh-29.jpg" property="og:image"/>
+<meta content="https://juice-bar-smoothie-cafe-171026.blackdill8.chatgpt.site/images/fresh-29.jpg" property="og:image"/>
 <meta content="Colourful juice bottles with fresh fruits and greens" property="og:image:alt"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
       }
     </script>
 <title>Offers | Juice Bar &amp; Smoothie Café</title>
-<link href="logo-mark.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/logo-mark.svg" rel="icon" type="image/svg+xml"/>
 <link as="font" crossorigin="" href="outfit-variable.ttf" rel="preload" type="font/ttf"/>
 <script src="theme-init.js"></script>
 <link href="site.css" rel="stylesheet"/>
@@ -455,25 +455,36 @@
       }
     </style>
 <style id="offers-collage-banner">
-#main .offers-feature{background:radial-gradient(ellipse at 5% 80%,#e1e8cf,transparent 50%),radial-gradient(ellipse at 85% 30%,#e9dce6,transparent 48%),#faf3e7;padding:clamp(24px,4svh,46px) 0 !important;}
+#main .offers-feature{background:var(--bg-feature);padding:clamp(24px,4svh,46px) 0 !important;}
 #main .offers-feature .hero-inner{display:grid !important;grid-template-columns:1fr 1.15fr !important;grid-template-areas:"copy media" !important;align-items:center;gap:clamp(30px,5vw,80px) !important;}
 #main .offers-feature .offers-banner-copy{grid-area:copy;max-width:620px;}
-.offers-kicker{display:inline-block;padding:10px 16px;border-radius:30px;border:1px solid #78915b55;color:#647c49;font-size:11px;letter-spacing:.1em;font-weight:700;margin-bottom:22px;}
-#main .offers-feature h1{font-size:clamp(38px,7svh,76px) !important;line-height:1.07;color:#20271c;margin-bottom:24px !important;}
-#main .offers-feature h1 em{color:#788951;font-weight:400;}
-#main .offers-feature .lead{color:#626354;font-size:clamp(15px,2.1svh,20px) !important;line-height:1.8;max-width:48ch;margin-bottom:28px !important;}
+.offers-kicker{display:inline-block;padding:10px 16px;border-radius:30px;border:1px solid color-mix(in srgb,var(--color-primary) 34%,transparent);color:var(--color-primary);font-size:11px;letter-spacing:.1em;font-weight:700;margin-bottom:22px;}
+#main .offers-feature h1{font-size:clamp(38px,7svh,76px) !important;line-height:1.07;color:var(--text-primary);margin-bottom:24px !important;}
+#main .offers-feature h1 em{color:var(--color-primary);font-weight:400;}
+#main .offers-feature .lead{color:var(--text-secondary);font-size:clamp(15px,2.1svh,20px) !important;line-height:1.8;max-width:48ch;margin-bottom:28px !important;}
 #main .offers-feature .actions{justify-content:flex-start !important;}
-#main .offers-feature .offers-collage{grid-area:media;position:relative;width:100%;height:min(72svh,730px);min-width:0;}
-.offers-mini{position:absolute;width:32%;height:38%;margin:0;border:4px solid #fff;border-radius:24px;overflow:hidden;box-shadow:0 12px 32px #42402315;}
+#main .offers-feature .offers-collage{grid-area:media;position:relative;width:100%;height:min(72svh,584px);min-width:0;}
+.offers-mini{position:absolute;width:32%;height:38%;margin:0;border:4px solid var(--bg-card);border-radius:24px;overflow:hidden;box-shadow:0 12px 32px rgba(var(--shadow-color),.08);}
 #main .offers-feature .offers-mini img{display:block;width:100%;height:100%;object-fit:cover;border-radius:0;}
-.offers-mini figcaption{position:absolute;bottom:10px;left:6px;right:6px;background:#fffffff2;border-radius:22px;padding:8px 4px;text-align:center;font-size:10px;font-weight:600;color:#617747;}
+.offers-mini figcaption{position:absolute;bottom:10px;left:6px;right:6px;background:color-mix(in srgb,var(--bg-card) 95%,transparent);border-radius:22px;padding:8px 4px;text-align:center;font-size:10px;font-weight:600;color:var(--color-primary);}
 .offers-mini-1{left:2%;top:3%;transform:rotate(-8deg);}.offers-mini-2{right:1%;top:0;transform:rotate(9deg);}.offers-mini-3{left:1%;bottom:2%;transform:rotate(5deg);}.offers-mini-4{right:1%;bottom:1%;transform:rotate(-7deg);}
-.offers-feature-card{position:absolute;z-index:2;left:23%;top:14%;width:57%;background:#fff;border-radius:28px;overflow:hidden;box-shadow:0 20px 60px #48403722;}
+.offers-feature-card{position:absolute;z-index:2;left:23%;top:14%;width:57%;background:var(--bg-card);border-radius:28px;overflow:hidden;box-shadow:0 20px 60px rgba(var(--shadow-color),.13);}
 #main .offers-feature .offers-feature-card>img{display:block;width:100%;height:clamp(160px,32svh,340px);object-fit:cover;object-position:center;border-radius:0;}
-.offers-card-copy{padding:18px 20px 22px;}.offers-label{display:inline-block;background:#71834d;color:#fff;border-radius:22px;padding:5px 10px;font-size:8px;letter-spacing:.12em;}.offers-card-copy h2{font-size:24px;line-height:1.15;color:#2d3426;margin:10px 0 8px;}.offers-card-copy p{color:#777a70;font-size:12px;line-height:1.55;margin:0 0 12px;}.offers-card-copy a{display:inline-flex;gap:14px;background:#edf0e6;color:#5b7144;padding:8px 14px;border-radius:22px;font-size:11px;font-weight:600;text-decoration:none;}
-[data-theme="dark"] #main .offers-feature{background:radial-gradient(ellipse at 80% 30%,#3b343c,transparent 65%),#23281d;}[data-theme="dark"] #main .offers-feature h1{color:#f7f2e6;}[data-theme="dark"] #main .offers-feature .lead{color:#d1d5c6;}[data-theme="dark"] .offers-kicker{color:#c8d6b0;}
-@media(max-width:700px){#main .offers-feature{height:auto !important;max-height:none !important;min-height:calc(100svh - var(--header,86px)) !important;}#main .offers-feature .hero-inner{height:auto !important;max-height:none !important;grid-template-columns:minmax(0,1fr) !important;grid-template-areas:"copy" "media" !important;grid-template-rows:auto auto !important;gap:36px !important;}#main .offers-feature h1{font-size:42px !important;}#main .offers-feature .offers-collage{height:540px;}.offers-card-copy{padding:14px;}.offers-card-copy h2{font-size:21px;}.offers-mini figcaption{font-size:8px;}.offers-feature-card{left:20%;width:62%;}#main .offers-feature .offers-feature-card>img{height:210px;}}
+#main .offers-feature .offers-card-copy h2{font-size:24px !important;}
+#main .offers-feature .offers-card-copy p{font-size:12px !important;line-height:1.55 !important;}
+.offers-card-copy{padding:18px 20px 22px;}.offers-label{display:inline-block;background:var(--color-primary);color:var(--bg-card);border-radius:22px;padding:5px 10px;font-size:8px;letter-spacing:.12em;}.offers-card-copy h2{font-size:24px;line-height:1.15;color:var(--text-primary);margin:10px 0 8px;}.offers-card-copy p{color:var(--text-secondary);font-size:12px;line-height:1.55;margin:0 0 12px;}.offers-card-copy a{display:inline-flex;gap:14px;background:color-mix(in srgb,var(--color-primary) 10%,var(--bg-secondary));color:var(--color-primary);padding:8px 14px;border-radius:22px;font-size:11px;font-weight:600;text-decoration:none;}
+@media(max-width:700px){#main .offers-feature{height:auto !important;max-height:none !important;min-height:calc(100svh - var(--header,86px)) !important;}#main .offers-feature .hero-inner{height:auto !important;max-height:none !important;grid-template-columns:minmax(0,1fr) !important;grid-template-areas:"copy" "media" !important;grid-template-rows:auto auto !important;gap:36px !important;}#main .offers-feature h1{font-size:42px !important;}#main .offers-feature .offers-collage{height:540px;}.offers-card-copy{padding:14px;}.offers-card-copy h2{font-size:21px;}#main .offers-feature .offers-card-copy h2{font-size:21px !important;}.offers-mini figcaption{font-size:8px;}.offers-feature-card{left:20%;width:62%;}#main .offers-feature .offers-feature-card>img{height:210px;}}
 @media(max-height:650px) and (min-width:701px){.offers-card-copy{padding:12px;}.offers-card-copy h2{font-size:20px;}.offers-card-copy p{font-size:11px;}.offers-kicker{margin-bottom:14px;}#main .offers-feature h1{font-size:clamp(34px,6.7svh,54px) !important;}}
+@media(min-width:701px){[dir=rtl] #main .offers-feature .hero-inner{grid-template-areas:"media copy" !important;}}
+[dir=rtl] body.page-offers #main .offers-feature .hero-inner > .offers-banner-copy{direction:ltr;text-align:right !important;}
+[dir=rtl] #main .offers-feature h1,[dir=rtl] #main .offers-feature .lead{text-align:right !important;}
+[dir=rtl] #main .offers-feature .actions{justify-content:flex-end !important;}
+[dir=rtl] #main .offers-feature .offers-feature-card{left:auto;right:23%;}
+[dir=rtl] #main .offers-feature .offers-mini-1{left:auto;right:2%;}
+[dir=rtl] #main .offers-feature .offers-mini-2{right:auto;left:1%;}
+[dir=rtl] #main .offers-feature .offers-mini-3{left:auto;right:1%;}
+[dir=rtl] #main .offers-feature .offers-mini-4{right:auto;left:1%;}
+@media(max-width:700px){[dir=rtl] #main .offers-feature .offers-feature-card{right:20%;}}
 </style>
 <link href="requested-updates.css" rel="stylesheet"/><link href="services-and-stories.css" rel="stylesheet"/></head>
 <body class="page-offers">
@@ -481,7 +492,7 @@
 <header class="site-header">
 <div class="header-inner">
 <div class="header-brand">
-<a aria-label="Juice Bar &amp; Smoothie Café home" class="brand" href="index.html"><img alt="" height="53" src="logo-mark.svg" width="53"/><span><b>Juice <span>Bar</span></b><small>&amp; Smoothie Café</small></span></a>
+<a aria-label="Juice Bar &amp; Smoothie Café home" class="brand" href="index.html"><img alt="" height="53" src="images/logo-mark.svg" width="53"/><span><b>Juice <span>Bar</span></b><small>&amp; Smoothie Café</small></span></a>
 </div>
 <nav aria-label="Main navigation" class="main-nav" id="main-nav">
 <details class="home-dropdown nav-dropdown">
@@ -527,7 +538,7 @@
 <path d="M4 12h16m-6-6 6 6-6 6"></path></svg></a>
 </div>
 </div>
-<div aria-label="A collection of colourful café drinks" class="offers-collage"><figure class="offers-mini offers-mini-1"><img alt="Three fruit drinks beside tropical leaves" height="400" src="offers-tropical.jpg" width="320"/><figcaption>Tropical moments</figcaption></figure><figure class="offers-mini offers-mini-2"><img alt="A berry smoothie with a splash above the glass" height="400" src="offers-berry.jpg" width="320"/><figcaption>Berry bright</figcaption></figure><figure class="offers-mini offers-mini-3"><img alt="Green, orange and berry smoothies in tall glasses" height="400" src="offers-colourful.jpg" width="320"/><figcaption>Colourful sips</figcaption></figure><figure class="offers-mini offers-mini-4"><img alt="Two takeaway drinks with colourful straws" height="400" src="offers-duo.jpg" width="320"/><figcaption>Better together</figcaption></figure><div class="offers-feature-card"><img alt="Freshly prepared fruit drinks and café ingredients" height="480" loading="lazy" src="fresh-10.jpg" width="640"/><div class="offers-card-copy"><span class="offers-label">A LITTLE EXTRA FRESH</span><h2>Your next café pairing.</h2><p>Explore sample bundles and find a combination for your next break.</p><a href="#offer-bundles">Explore offers <span aria-hidden="true">→</span></a></div></div></div>
+<div aria-label="A collection of colourful café drinks" class="offers-collage"><figure class="offers-mini offers-mini-1"><img alt="Three fruit drinks beside tropical leaves" height="400" src="images/offers-tropical.jpg" width="320"/><figcaption>Tropical moments</figcaption></figure><figure class="offers-mini offers-mini-2"><img alt="A berry smoothie with a splash above the glass" height="400" src="images/offers-berry.jpg" width="320"/><figcaption>Berry bright</figcaption></figure><figure class="offers-mini offers-mini-3"><img alt="Green, orange and berry smoothies in tall glasses" height="400" src="images/offers-colourful.jpg" width="320"/><figcaption>Colourful sips</figcaption></figure><figure class="offers-mini offers-mini-4"><img alt="Two takeaway drinks with colourful straws" height="400" src="images/offers-duo.jpg" width="320"/><figcaption>Better together</figcaption></figure><div class="offers-feature-card"><img alt="Freshly prepared fruit drinks and café ingredients" height="480" loading="lazy" src="images/fresh-10.jpg" width="640"/><div class="offers-card-copy"><span class="offers-label">A LITTLE EXTRA FRESH</span><h2>Your next café pairing.</h2><p>Explore sample bundles and find a combination for your next break.</p><a href="#offer-bundles">Explore offers <span aria-hidden="true">→</span></a></div></div></div>
 </div>
 </section>
 <section class="section" id="offer-bundles">
@@ -540,7 +551,7 @@
 </div>
 <div class="grid grid-3">
 <article class="offer-card">
-<img alt="Freshly prepared fruit drinks and café ingredients" height="350" loading="lazy" src="fresh-31.jpg" width="500"/>
+<img alt="Freshly prepared fruit drinks and café ingredients" height="1600" loading="lazy" src="images/fresh-31.jpg" width="1066"/>
 <div>
 <span class="eyebrow">Sample promotion</span>
 <h3>Fresh Start Pair</h3>
@@ -554,7 +565,7 @@
 </div>
 </article>
 <article class="offer-card">
-<img alt="Freshly prepared fruit drinks and café ingredients" height="350" loading="lazy" src="fresh-32.jpg" width="500"/>
+<img alt="Freshly prepared fruit drinks and café ingredients" height="1600" loading="lazy" src="images/fresh-32.jpg" width="1063"/>
 <div>
 <span class="eyebrow">Sample promotion</span>
 <h3>Smoothie Duo</h3>
@@ -568,7 +579,7 @@
 </div>
 </article>
 <article class="offer-card">
-<img alt="Freshly prepared fruit drinks and café ingredients" height="350" loading="lazy" src="fresh-33.jpg" width="500"/>
+<img alt="Freshly prepared fruit drinks and café ingredients" height="1600" loading="lazy" src="images/fresh-33.jpg" width="1066"/>
 <div>
 <span class="eyebrow">Sample promotion</span>
 <h3>Tropical Moment</h3>
@@ -593,7 +604,7 @@
 </div>
 </div>
 <div class="saved-offer-layout">
-<img alt="Freshly prepared fruit drinks and café ingredients" height="480" loading="lazy" src="fresh-27.jpg" width="640"/>
+<img alt="Freshly prepared fruit drinks and café ingredients" height="480" loading="lazy" src="images/fresh-27.jpg" width="640"/>
 <div class="saved-offer-copy">
 <p class="saved-offer-description">Save a pairing you love. Keep its code handy for your next café conversation.</p>
 <p class="saved-offer-note">Choose a sample code above to save it in this browser; sample codes are not redeemable yet.</p>
@@ -651,7 +662,7 @@
 <h2>Sample promotion terms.</h2>
 </div>
 </div>
-<div class="promotion-terms-layout"><img alt="A selection of bottled fruit drinks with colourful fruit labels" height="700" loading="lazy" src="supplied-images/picture-04.jpg" width="900"/><div class="notice">
+<div class="promotion-terms-layout"><img alt="A selection of bottled fruit drinks with colourful fruit labels" height="700" loading="lazy" src="images/picture-04.jpg" width="900"/><div class="notice">
 <strong>Not currently redeemable.</strong> These offers demonstrate the
             website’s design and code-saving feature. No sale or order is created. Final
             dates, availability, eligible products and redemption rules must be supplied
@@ -674,7 +685,7 @@
 <path d="M4 12h16m-6-6 6 6-6 6"></path></svg></a>
 </div>
 </div>
-<img alt="Freshly prepared fruit drinks and café ingredients" height="480" loading="lazy" src="fresh-28.jpg" width="640"/>
+<img alt="Freshly prepared fruit drinks and café ingredients" height="480" loading="lazy" src="images/fresh-28.jpg" width="640"/>
 </div>
 </div>
 </section>
@@ -683,7 +694,7 @@
 <div class="wrap">
 <div class="footer-grid">
 <div class="footer-about">
-<a aria-label="Juice Bar &amp; Smoothie Café home" class="brand" href="index.html"><img alt="" height="53" src="logo-mark.svg" width="53"/><span><b>Juice <span>Bar</span></b><small>&amp; Smoothie Café</small></span></a>
+<a aria-label="Juice Bar &amp; Smoothie Café home" class="brand" href="index.html"><img alt="" height="53" src="images/logo-mark.svg" width="53"/><span><b>Juice <span>Bar</span></b><small>&amp; Smoothie Café</small></span></a>
 <p>
               A little colour. A lot of flavour. Explore refreshing juices, feel-good
               smoothies, indulgent shakes and wholesome little bites.

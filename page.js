@@ -2,6 +2,37 @@
 import "./runtime.js";
 
 {
+  const pageFile = location.pathname.split("/").filter(Boolean).pop() || "index.html";
+  const parentPages = new Map([
+    ["avocado-crunch.html", "menu.html"],
+    ["berry-bliss.html", "menu.html"],
+    ["citrus-sunrise.html", "menu.html"],
+    ["cocoa-cloud.html", "menu.html"],
+    ["green-glow.html", "menu.html"],
+    ["mango-mood.html", "menu.html"],
+    ["cafe-services.html", "services.html"],
+    ["gatherings.html", "services.html"],
+    ["service-details.html", "services.html"],
+  ]);
+  const target = new URL(parentPages.get(pageFile) || pageFile, location.href);
+  const nav = document.querySelector("#main-nav");
+  const currentLink = [...(nav?.querySelectorAll("a[href]") || [])].find((link) => {
+    const url = new URL(link.href, location.href);
+    return url.origin === target.origin && url.pathname === target.pathname;
+  });
+  if (currentLink && nav) {
+    nav
+      .querySelectorAll('[aria-current="page"]')
+      .forEach((element) => element.removeAttribute("aria-current"));
+    currentLink.setAttribute("aria-current", "page");
+    currentLink
+      .closest(".nav-dropdown")
+      ?.querySelector(":scope > summary")
+      ?.setAttribute("aria-current", "page");
+  }
+}
+
+{
   /* Editorial homepage: real catalogue statistics, with reduced-motion support. */
   (() => {
     "use strict";
