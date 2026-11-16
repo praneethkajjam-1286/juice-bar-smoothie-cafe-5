@@ -64,41 +64,7 @@ p {
   background: currentColor;
   flex: none;
 }
-.btn {
-  min-height: 49px;
-  padding: 14px 25px;
-  border-radius: 99px;
-  font-size: 13px;
-  font-weight: 700;
-  gap: 12px;
-  transition:
-    transform 0.2s ease,
-    background-color 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
-}
-.btn-primary {
-  box-shadow: 0 7px 20px color-mix(in srgb, var(--primary) 17%, transparent);
-}
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 28px color-mix(in srgb, var(--primary) 26%, transparent);
-}
-.btn-secondary,
-.btn-outline {
-  border: 1px solid var(--secondary-ink);
-}
-.btn-outline {
-  background: transparent;
-  color: var(--primary-ink);
-  border-color: var(--primary-ink);
-}
-.btn-outline:hover {
-  background: var(--surface-2);
-  border-color: var(--primary-ink);
-}
 .icon-btn {
-  border-radius: 13px;
   background: color-mix(in srgb, var(--surface) 70%, var(--bg));
 }
 .site-header {
@@ -131,11 +97,6 @@ p {
 .main-nav > a[aria-current="page"],
 .nav-dropdown > summary[aria-current="page"] {
   color: var(--primary-ink);
-}
-.header-cta {
-  font-size: 12px;
-  min-height: 45px;
-  padding-inline: 22px;
 }
 .brand-tagline {
   color: var(--muted-ink);
@@ -402,10 +363,6 @@ p {
   border-top: 1px solid var(--border);
   padding-top: 15px;
   gap: 10px;
-}
-.product-order {
-  min-height: 44px;
-  font-size: 12px;
 }
 .badge {
   border: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
@@ -709,13 +666,6 @@ td {
 .footer-social {
   gap: 9px;
 }
-.footer-social .icon-btn {
-  width: 44px;
-  min-width: 44px;
-  height: 44px;
-  min-height: 44px;
-  border-radius: 11px;
-}
 .footer-bottom {
   padding-block: 25px;
   font-size: 11px;
@@ -759,9 +709,6 @@ td {
 .auth-card .eyebrow {
   display: flex;
   justify-content: center;
-}
-.auth-card .btn {
-  border-radius: 99px;
 }
 .order-card {
   border-radius: 30px;
@@ -1329,11 +1276,7 @@ td {
     gap: 9px;
   }
   .cta-panel .btn {
-    padding: 10px 12px;
-    font-size: 11px;
-    min-height: 44px;
     justify-content: space-between;
-    gap: 8px;
   }
   .cta-panel .btn .icon {
     width: 17px;
@@ -1358,10 +1301,6 @@ td {
   }
   .cta-panel .cta-copy h2 {
     font-size: 24px;
-  }
-  .cta-panel .btn {
-    padding-inline: 9px;
-    font-size: 10px;
   }
 }
 
@@ -1733,9 +1672,6 @@ html[data-motion="paused"] .hero .stamp:after {
 }
 .banner-actions {
   margin-block-start: 24px;
-}
-.page-hero .banner-actions .btn {
-  min-height: 46px;
 }
 .banner-reverse .hero-inner > div:first-child {
   order: 2;
@@ -2222,9 +2158,6 @@ main > section:last-child {
   .banner-actions {
     gap: 10px;
   }
-  .banner-actions .btn {
-    padding: 12px 17px;
-  }
   .cta-panel,
   .cta-panel.cta-reverse {
     grid-template-columns: minmax(0, 1fr) 88px;
@@ -2254,8 +2187,6 @@ main > section:last-child {
     align-items: stretch;
   }
   .cta-panel .btn {
-    font-size: 12px;
-    padding: 11px;
     white-space: normal;
   }
   .cta-design-4 .cta-copy {
@@ -2362,24 +2293,6 @@ main > section:last-child {
 }
 .page-home2 .editorial-hero .hero-photo > img {
   height: 510px;
-}
-.btn-primary {
-  --bs-btn-hover-bg: var(--secondary);
-  --bs-btn-hover-color: var(--on-secondary);
-  --bs-btn-hover-border-color: var(--secondary-ink);
-  --bs-btn-active-bg: var(--secondary);
-  --bs-btn-active-color: var(--on-secondary);
-  --bs-btn-active-border-color: var(--secondary-ink);
-}
-.btn-primary:hover,
-.btn-primary:focus-visible,
-.btn-primary:active,
-.btn-primary:focus-visible:hover,
-.cta-panel .btn-primary:hover,
-.editorial-hero .btn-primary:hover {
-  background: var(--secondary);
-  color: var(--on-secondary);
-  border-color: var(--secondary-ink);
 }
 .nutrition-questions .faq {
   max-width: 860px;

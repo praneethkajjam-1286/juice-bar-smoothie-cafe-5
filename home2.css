@@ -106,16 +106,6 @@
   margin-top: 26px;
 }
 
-.home2-hero__actions .btn {
-  transition: transform .2s ease, box-shadow .2s ease;
-}
-
-.home2-hero__actions .btn:hover,
-.home2-hero__actions .btn:focus-visible {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 26px rgba(0, 0, 0, .22);
-}
-
 .home2-hero__steps {
   display: flex;
   flex-wrap: wrap;
@@ -303,7 +293,7 @@
 @media (min-width: 701px) and (max-width: 1000px) {
   .home2-hero {
     height: auto;
-    min-height: 620px;
+    min-height: var(--hero-height-tablet, 540px);
   }
 
   .home2-hero__inner {
@@ -384,12 +374,6 @@
   .home2-hero__actions {
     gap: 10px;
     margin-top: 20px;
-  }
-
-  .home2-hero__actions .btn {
-    min-height: 44px;
-    padding: 12px 16px;
-    font-size: 12px;
   }
 
   .home2-hero__steps {

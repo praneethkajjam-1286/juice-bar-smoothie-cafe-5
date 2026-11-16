@@ -11723,7 +11723,7 @@ fieldset:disabled .btn {
   --radius: 18px;
   --header: 104px;
   --primary-ink: var(--primary-hover);
-  --secondary-ink: #7b5737;
+  --secondary-ink: color-mix(in srgb, var(--color-secondary) 55%, var(--text-primary));
   --muted-ink: var(--text-secondary);
   --on-primary: var(--button-primary-text);
   --on-secondary: #211d17;
@@ -11947,23 +11947,41 @@ button:disabled {
 }
 
 .btn {
+  box-sizing: border-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  padding: 14px 25px;
-  border-radius: 100px;
+  min-height: 48px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 13px;
   font-weight: 700;
-  border: 1.5px solid transparent;
-  min-height: 46px;
-  font-size: 14px;
   line-height: 1.3;
+  border: 1.5px solid transparent;
   text-align: center;
   min-width: 44px;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .btn:hover {
   transform: translateY(-2px);
+}
+
+.btn:disabled,
+.btn.disabled,
+.btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.65;
+  pointer-events: none;
+  transform: none;
+  box-shadow: none;
 }
 
 .btn-secondary {
@@ -12012,8 +12030,10 @@ button:disabled {
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
-  width: 45px;
-  height: 45px;
+  box-sizing: border-box;
+  padding: 0;
+  width: 44px;
+  height: 44px;
   border-radius: 12px;
   display: inline-flex;
   align-items: center;
@@ -13075,12 +13095,7 @@ td a {
 }
 
 .footer-social .icon-btn {
-  width: 38px;
-  height: 38px;
-  border-radius: 8px;
   color: var(--primary-ink);
-  min-width: 44px;
-  min-height: 44px;
 }
 
 .auth-page {
@@ -13390,7 +13405,6 @@ td a {
 }
 
 .header-cta {
-  padding-inline: 20px;
   white-space: nowrap;
 }
 
@@ -13552,6 +13566,7 @@ td a {
 
 .newsletter-input .btn {
   flex: none;
+  align-self: center;
 }
 
 .newsletter-panel .small-note {
@@ -13635,11 +13650,6 @@ select:focus {
 .order-row p {
   font-size: 13px;
   margin: 3px 0 0;
-}
-
-.order-row .btn {
-  font-size: 12px;
-  padding: 8px 13px;
 }
 
 .order-row:last-child {
@@ -14135,10 +14145,6 @@ progress::-moz-progress-bar {
 .message-card .actions {
   gap: 8px;
 }
-.message-card .btn {
-  font-size: 12px;
-  padding-inline: 14px;
-}
 .message-card[data-archived="true"] {
   border-style: dashed;
 }
@@ -14241,10 +14247,6 @@ progress::-moz-progress-bar {
   .brand {
     min-width: 180px;
   }
-  .header-cta {
-    padding-inline: 15px;
-    font-size: 13px;
-  }
   .header-controls {
     gap: 7px;
   }
@@ -14269,16 +14271,8 @@ progress::-moz-progress-bar {
     width: 46px;
     height: 46px;
   }
-  .header-controls .btn {
-    padding-inline: 15px;
-    font-size: 12px;
-  }
   .header-controls {
     gap: 6px;
-  }
-  .icon-btn {
-    width: 42px;
-    height: 42px;
   }
   .hero-inner {
     gap: 30px;
@@ -14472,11 +14466,6 @@ progress::-moz-progress-bar {
   }
   .header-controls {
     gap: 5px;
-  }
-  .icon-btn {
-    width: 44px;
-    height: 44px;
-    border-radius: 10px;
   }
   .icon {
     width: 19px;
@@ -14693,9 +14682,6 @@ progress::-moz-progress-bar {
   .map-placeholder {
     height: 300px;
   }
-  .hero .actions .btn {
-    padding-inline: 20px;
-  }
   .product-grid.grid-4 {
     grid-template-columns: 1fr 1fr;
   }
@@ -14742,10 +14728,6 @@ progress::-moz-progress-bar {
   }
   .rating-open {
     font-size: 11px;
-  }
-  .product-order {
-    font-size: 12px;
-    padding-inline: 10px;
   }
   .product-body .price {
     font-size: 22px;
@@ -14810,10 +14792,6 @@ progress::-moz-progress-bar {
   .header-inner .brand img {
     width: 32px;
     height: 32px;
-  }
-  .header-controls .icon-btn {
-    width: 44px;
-    height: 44px;
   }
   .product-grid.grid-4 {
     grid-template-columns: 1fr;
